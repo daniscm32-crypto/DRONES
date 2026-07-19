@@ -80,8 +80,8 @@ def eliminar_dron():
 def registrar_mision():
     global raiz
     codigo = input("Código: ")
-    for d in drones:
-        if d["codigo"] == codigo:
+    for m in misiones:
+        if m["codigo"] == codigo:
             print("Error: El código ya está registrado.")
             return
     zona = input("Zona: ")
